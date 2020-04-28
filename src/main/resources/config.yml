@@ -1,0 +1,36 @@
+# If never triggered, -1.
+# Value is month's index
+last-seasonal-reset-month: -1
+
+# end of season when on registered month. the value is month's day
+seasons-ends-date:
+  january: 1
+  february: 1
+  march: 1
+  april: 1
+  may: 1
+  june: 1
+  july: 1
+  august: 1
+  september: 1
+  october: 1
+  november: 1
+  december: 1
+
+ranks:
+  coal:
+    default-rank: true
+    next-rank: 'iron'
+    required-points: 0
+  iron:
+    next-rank: 'gold'
+    required-points: 5000
+  gold:
+    next-rank: 'diamond'
+    required-points: 15000
+  diamond:
+    required-points: 22500
+
+basic-points-source:
+  raid: 5
+  death: -3

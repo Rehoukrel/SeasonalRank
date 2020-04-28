@@ -1,0 +1,9 @@
+name: ${project.name}
+version: ${project.version}
+main: com.github.TiveCS.seasonalrank.SeasonalRank
+authors: [TiveCS, Rhk_Co]
+depend: [TiveCore, LuckPerms]
+api-version: 1.13
+commands:
+  seasonalrank:
+    aliases: [rank, ranks, rankup, seasonal]
